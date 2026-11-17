@@ -3,7 +3,17 @@ guid: e8465488504698d42a5a26c22d182458
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Backrooms_Baseboard
+    second: {fileID: 9210086716452900792, guid: 9262b62c457caf14e91b5aed2fb698ba, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Backrooms_Wall
+    second: {fileID: 9210086716452900792, guid: d40d9226a9eddbc4c979b5f217350e55, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

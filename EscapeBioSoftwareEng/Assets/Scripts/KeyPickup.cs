@@ -7,9 +7,6 @@ public class KeyPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             KeyManager.Instance.CollectKey();
-        }else if(other.CompareTag("NoKeySpawn"))
-        {
-           KeyManager.Instance.goodLocation = false;
         }
     }
 }

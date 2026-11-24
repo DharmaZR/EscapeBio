@@ -8,5 +8,9 @@ public class KeyPickup : MonoBehaviour
         {
             KeyManager.Instance.CollectKey();
         }
+        else if (other.CompareTag("NoKeySpawn"))
+        {
+            KeyManager.Instance.goodLocation = false;
+        }
     }
 }

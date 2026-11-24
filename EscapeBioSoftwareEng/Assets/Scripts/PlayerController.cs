@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     FreshStart freshStart;
 
 
-    void Awake()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
         StartCoroutine(WaitForStart());
